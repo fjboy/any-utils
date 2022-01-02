@@ -12,7 +12,7 @@ def main():
     cli_parser = cliparser.SubCliParser('Fluent Python Utils Extensions')
 
     ext_manager = extension.ExtensionManager(
-        namespace='fputils.extensions',
+        namespace='anyutils.extensions',
         invoke_on_load=True,
     )
     for ext in ext_manager.extensions:
