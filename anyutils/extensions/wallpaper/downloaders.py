@@ -20,6 +20,7 @@ DOWNLOADER = {
     'bingimg': 'anyutils.extensions.wallpaper.bingimg.Downloader'
 }
 
+
 class BingimgDownload(cliparser.CliBase):
     NAME = 'bingimg-download'
     ARGUMENTS = [
